@@ -1,0 +1,168 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Registration | SIH 5.0</title>
+  <link rel="stylesheet" href="css.html/style.css">
+</head>
+<body>
+<header class="site-header">
+  <h2>Welcome to Sistec Innovation Hackathon</h2>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="showcase.html">Showcase</a>
+    <a href="domains.html">Domains</a>
+    <a href="problem-statements.html">Problem Statements</a>
+    <a href="how-it-works.html">How It Works</a>
+    <a href="registration.html">Registration</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<section id="registration" class="registration-section">
+
+    <h2>Team Registration</h2>
+
+    <p class="registration-description">
+        Register your team for SIH 5.0 and get ready to innovate,
+        collaborate and solve real-world challenges.
+    </p>
+
+    <form id="registration-form">
+
+        
+
+        <h3>Team Details</h3>
+
+        <label>Team Name</label>
+        <input type="text" name="teamName"
+        placeholder="Enter your team name" required>
+
+        <label>College Name</label>
+        <input type="text" name="collegeName"
+        placeholder="Enter your college name" required>
+
+        <label>Select Domain</label>
+        <select name="domain" required>
+            <option value="">Select Domain</option>
+            <option>Artificial Intelligence</option>
+            <option>Healthcare</option>
+            <option>Agriculture</option>
+            <option>Smart Education</option>
+            <option>Cybersecurity</option>
+            <option>Environment</option>
+            <option>Other</option>
+        </select>
+
+        <label>Problem Statement</label>
+        <select name="problemStatement" required>
+            <option value="">Select Problem Statement</option>
+            <option>Digital Healthcare Access</option>
+            <option>Smart Farming Solutions</option>
+            <option>Digital Learning Platform</option>
+            <option>Waste Management System</option>
+            <option>Other</option>
+        </select>
+
+
+        
+        <h3>Team Leader Details</h3>
+
+        <label>Team Leader Name</label>
+        <input type="text" name="leaderName"
+        placeholder="Enter full name" required>
+
+        <label>Team Leader Gmail</label>
+        <input type="email" name="leaderEmail"
+        placeholder="example@gmail.com" required>
+
+        <label>Team Leader Mobile Number</label>
+        <input type="tel" name="leaderMobile"
+        placeholder="Enter 10 digit mobile number"
+        pattern="[0-9]{10}" required>
+
+        <label>Branch</label>
+        <input type="text" name="leaderBranch"
+        placeholder="Example: CSE" required>
+
+        <label>Current Year</label>
+        <select name="leaderYear" required>
+            <option value="">Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+
+        <!-- Member 2 -->
+
+        <h3>Team Member 2</h3>
+
+        <label>Full Name</label>
+        <input type="text" name="member2Name"
+        placeholder="Enter member name" required>
+
+        <label>Gmail ID</label>
+        <input type="email" name="member2Email"
+        placeholder="example@gmail.com" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" name="member2Mobile"
+        placeholder="Enter 10 digit number"
+        pattern="[0-9]{10}" required>
+
+        <label>Branch</label>
+        <input type="text" name="member2Branch"
+        placeholder="Enter branch" required>
+
+
+        <!-- Member 3 -->
+
+        <h3>Team Member 3</h3>
+
+        <label>Full Name</label>
+        <input type="text" name="member3Name"
+        placeholder="Enter member name" required>
+
+        <label>Gmail ID</label>
+        <input type="email" name="member3Email"
+        placeholder="example@gmail.com" required>
+
+        <label>Mobile Number</label>
+        <input type="tel" name="member3Mobile"
+        placeholder="Enter 10 digit number"
+        pattern="[0-9]{10}" required>
+
+        <label>Branch</label>
+        <input type="text" name="member3Branch"
+        placeholder="Enter branch" required>
+
+
+        <!-- Project Information -->
+
+        <h3>Project Information</h3>
+
+        <label>Brief Description of Your Idea</label>
+        <textarea name="projectIdea"
+        placeholder="Describe your project idea..."
+        rows="5" required></textarea>
+
+        <label>Technologies You Plan to Use</label>
+        <input type="text" name="technologies"
+        placeholder="Example: HTML, CSS, JavaScript, Python">
+
+        <label>
+            <input type="checkbox" name="terms" required>
+            I confirm that the information provided is correct.
+        </label>
+
+        <button type="submit">Submit Registration</button>
+
+    </form>
+
+</section>
+<footer class="footer-section"><p>SIH 5.0 | Innovate. Build. Solve.</p></footer>
+</body>
+</html>

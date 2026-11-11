@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+<head>
+<title > sistec innovation hakathon 5.o </title>
+</head>
+<body>
+<h1> Welcome to sih 5.0 <h1>
+<p> innovate, build ,solve</p>
+</body>
+</html>
